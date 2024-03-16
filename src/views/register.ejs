@@ -1,0 +1,39 @@
+<div class="form-container">
+    <form class="loginForm" action="/register" method="post">
+        <span class="loginSignupHeader"> SignUp</span>
+        <div class="field">
+            <input 
+                type="text" 
+                placeholder="Enter Your name" 
+                class="form-control" 
+                id="name" 
+                name="name" 
+                required>
+        </div>
+        <div class="field">
+            <input type="email" 
+            class="form-control" 
+            placeholder="Enter email"
+            id="email" 
+            name="email"
+             required>
+        </div>
+        <div class="field">
+            
+            <input type="password"
+             class="form-control"
+             placeholder="Enter password"
+              id="password" name="password" required>
+        </div>
+        <div class="radio">
+            <input type="radio" id="recruiter" name="role" value="recruiter">
+            <label for="html">Recruiter</label>
+            <input type="radio" id="jobSeeker" name="role" value="jobSeeker">
+            <label for="css">Job Seeker</label><br>
+        </div>
+        <div class="field">
+            <button type="submit" class="btn btn-primary ">SignUp</button>
+        </div>
+    </form>
+    
+</div>
