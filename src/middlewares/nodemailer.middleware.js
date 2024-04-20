@@ -4,8 +4,8 @@ import path from "path";
 let transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "swapnabommu8143@gmail.com",
-    pass: "cddn qbcp lttx ehjf",
+    user: "your email",
+    pass: "password",
   },
 });
 const data = fs.readFileSync(
